@@ -35,7 +35,7 @@
     padding: 26px; display: flex; flex-direction: column; gap: 10px;
   }
   .card .app-logo {
-    width: 44px; height: 44px; border-radius: 11px; background: var(--accent);
+    width: 44px; height: 44px; border-radius: 11px; background: linear-gradient(180deg, #ef5350, #c62828);
     color: #fff; font-weight: 800; font-size: 21px; display: flex; align-items: center; justify-content: center;
   }
   .card h2 { font-size: 20px; }
@@ -61,7 +61,14 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="logo">O</div>
+      <div class="logo" role="img" aria-label="Open Productivity Apps">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="7.5" height="7.5" rx="2"/>
+          <rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/>
+          <rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/>
+          <path d="M17.25 13.7v7.1M13.7 17.25h7.1"/>
+        </svg>
+      </div>
       <h1>Open Productivity Apps</h1>
       <p class="tagline">Free, open-source alternatives to paid productivity software.
       No subscriptions, no accounts, no telemetry — your files never leave your machine.</p>
